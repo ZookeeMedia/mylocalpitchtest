@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { MlpdataService } from './mlpdata.service';
+import { MLPDataService } from './mlpdata.service';
 
-describe('MlpdataService', () => {
+describe('MLPDataService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: MlpdataService = TestBed.get(MlpdataService);
+    const service: MLPDataService = TestBed.get(MLPDataService);
     expect(service).toBeTruthy();
   });
 });
